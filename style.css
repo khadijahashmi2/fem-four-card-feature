@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 330px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 40px;
+    color: rgb(77, 74, 74)
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.title p {
+    padding-top: 10px;
+    font-size: 16px;
+    color: rgb(165, 165, 165);
+}
+
+p {
+    color: rgb(165, 165, 165);;
+}
+
+h3 {
+    color: rgb(66, 64, 64);
+    font-size: 20px;
+}
+
+.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px lightgray;
+    margin-bottom: 30px;
+}
+
+.supervisor img {
+    margin-left: auto;
+    display: block;
+    padding: 30px;
+}
+
+.supervisor h3, p {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.teambuilder {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px lightgray;
+    margin-bottom: 30px;
+}
+
+.teambuilder img {
+    margin-left: auto;
+    display: block;
+    padding: 30px;
+}
+
+.teambuilder h3, p {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px lightgray;
+    margin-bottom: 30px;
+}
+
+.karma img {
+    margin-left: auto;
+    display: block;
+    padding: 30px;
+}
+
+.karma h3, p {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px lightgray;
+    margin-bottom: 30px;
+}
+
+.calculator img {
+    margin-left: auto;
+    display: block;
+    padding: 30px;
+}
+
+.calculator h3, p {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media only screen and (min-width: 1020px) {
+    
+    .container {
+        width: 1020px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 3rem;
+        column-gap: 3rem;
+    }
+
+    .supervisor {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    .teambuilder {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+    .karma {
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+
+    .calculator {
+        grid-column: 3/4;
+        grid-row: 2/4;
+    }
+
+    .title {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .title p {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
